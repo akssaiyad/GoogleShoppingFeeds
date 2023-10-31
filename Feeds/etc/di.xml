@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Framework\Console\CommandList">
+        <arguments>
+            <argument name="commands" xsi:type="array">
+                <item name="feed_google" xsi:type="object">Aks\Feeds\Console\Command\GoogleMerchant</item>
+                <item name="feed_facebook" xsi:type="object">Aks\Feeds\Console\Command\Facebook</item>
+                <item name="feed_performant" xsi:type="object">Aks\Feeds\Console\Command\Performant</item>
+                <item name="feed_css" xsi:type="object">Aks\Feeds\Console\Command\Css</item>
+            </argument>
+        </arguments>
+    </type>
+</config>
