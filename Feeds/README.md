@@ -1,4 +1,4 @@
-# GoogleShoppingFeeds
+# Roweb_Feeds
 
 * Create `feeds` folder in pub/media of the project
 
